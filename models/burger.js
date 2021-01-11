@@ -17,7 +17,12 @@ var burger = {
     orm.updateOne("burgers", objColVals, condition, function(res) {
       cb(res);
     });
-  }
+  },
+  deleteOne: function(cols, vals, cb) {
+    orm.deleteOne("burgers", cols, vals, function(res) {
+      cb(res);
+    });
+  },
 };
 
 // Export the database functions for the controller (burgerController.js).
