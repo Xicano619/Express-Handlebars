@@ -40,7 +40,6 @@ Email:
 ----
 
 ## License
-undefined 
 Protect your intellectual property by letting other developers know what they CAN and CANNOT do with your project. 
 Need help choosing a license, check out: [https://choosealicense.com/](https://choosealicense.com/)
 ---
